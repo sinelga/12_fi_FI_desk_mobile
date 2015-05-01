@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('4FiFipornoDesk')
+angular.module('FiFiDeskMobile')
   .controller('DetailsCtrl', function ($scope,$resource,$stateParams,$timeout,$location,rfc4122) {
 	  		
 	  $scope.host =$location.host();

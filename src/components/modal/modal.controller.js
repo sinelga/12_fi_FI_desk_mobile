@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('4FiFipornoDesk')
+angular.module('FiFiDeskMobile')
   .controller('ModalCtrl', function ($scope,$rootScope,$timeout,$resource,$location,rfc4122,$fancyModal) {
 	  var uuid = rfc4122.v4();
 	  $scope.empty = true;

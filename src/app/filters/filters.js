@@ -8,7 +8,7 @@
  * # filters
  * Filter in the oyblogApp.
  */
-angular.module('4FiFipornoDesk')
+angular.module('FiFiDeskMobile')
   .filter('img_link', function () {
     return function (input) {
 

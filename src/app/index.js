@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('4FiFipornoDesk', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router','uuid','sticky','ngPageHeadMeta','ngLoadingScreen','vesparny.fancyModal','angular-responsive'])
+angular.module('FiFiDeskMobile', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router','uuid','sticky','ngPageHeadMeta','ngLoadingScreen','vesparny.fancyModal','angular-responsive'])
   .config(function ($stateProvider, $urlRouterProvider,$locationProvider,responsiveHelperProvider) {
 	  var device = 'ld';
 	  var responsiveHelperProvider = responsiveHelperProvider.$get();

@@ -3,7 +3,7 @@
 describe('controllers', function(){
   var scope;
 
-  beforeEach(module('4FiFipornoDesk'));
+  beforeEach(module('FiFiDeskMobile'));
 
   beforeEach(inject(function($rootScope) {
     scope = $rootScope.$new();
