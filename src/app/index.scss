@@ -45,12 +45,8 @@ input, textarea, .uneditable-input {
 body {
  
 	padding:0;
-/* 	height:100%; */
-/* 	width:100%; */
-    background:url("/assets/images/backgroundimg.jpg") no-repeat center center fixed;
-    background-size: cover;
-  
-  	/* font-family: 'Chewy', cursive !important; */
+/*     background:url("/assets/images/backgroundimg.jpg") no-repeat center center fixed;
+    background-size: cover; */
   	font-family: 'Special Elite', cursive  !important;
   	color:#ffd9d9;
   	text-shadow: 1px 1px 1px #aaa;
@@ -59,6 +55,16 @@ body {
  	
 
 }
+
+@media only screen and (min-device-width : 768px) {
+         body{
+           background: url('/assets/images/backgroundimg.jpg') no-repeat center center fixed;
+           background-size: cover;
+           height: 100%;
+         }
+} 
+
+
 
 .transparent {
 	
